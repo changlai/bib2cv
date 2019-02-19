@@ -25,11 +25,15 @@ Using
 -----
 
 In a terminal, input::
+
     python bib2cv.py example.bib
+
 Make sure example.bib is accessible.
 
 To show your name in bold, add the --user(-u) argument::
+
     python bib2cv.py -u last,first example.bib
+
 The user name format is "last,first".
 
 Package content
@@ -43,4 +47,4 @@ example.bib
     Example bib database.
 
 example.tex 
-    Example cv tex file.
+    Example cv tex file. Install python.sty first to compile this example.
