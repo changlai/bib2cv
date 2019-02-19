@@ -1,0 +1,17 @@
+\documentclass[12pt,]{article}
+\usepackage[outputdir=build]{python}
+\usepackage[unicode=true]{hyperref}
+
+\begin{document}
+
+\subsection{Publications}\label{publications}
+
+\begin{python}
+
+import bib2cv
+bib2cv.parse('example.bib', user='Last,First')
+
+\end{python}
+
+\end{document}
+
